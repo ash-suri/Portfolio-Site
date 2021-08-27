@@ -1,0 +1,40 @@
+/* @font-face{
+    font-family:'VarelaRound' ;
+    src: local("VarelaRound"), url(../assets/fonts/VarelaRound-Regular.ttf) format('truetype');
+  } */
+  
+.aboutStyle{
+    padding-top: 15px;
+    padding-bottom: 10vh;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.job_cardStyle{
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+.experienceCard{
+    font-family:'VarelaRound' !important;
+    margin: 5px ;
+    justify-content: start;
+}
+
+.subHeadings{
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+ 
+}
+
+.skills{
+    background-color:#05386b;
+    color: #edf5e1 !important;
+    font-size: medium;
+    margin: 6px;
+    padding: 12px;
+}
