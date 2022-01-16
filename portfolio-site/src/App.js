@@ -26,7 +26,7 @@ class App extends React.Component {
       home: {
         title: 'Hey there!',
         subTitle: 'Here\'s some of my work',
-        text: 'Checkout my projects below'
+        text: 'Checkout my projects by clicking on the cards below'
       },
       about: {
         title: 'About Me'
@@ -60,7 +60,7 @@ class App extends React.Component {
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
 
           <Footer />
-
+          
         </Container>
       </Router>
     );

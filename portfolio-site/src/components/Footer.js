@@ -11,15 +11,15 @@ function Footer() {
     
     return(
         <footer>
-            <Container fluid={true}>
-                <Row className="justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
-                        Ashvinder Suri
-                    </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Ashvinder Suri.
-                    </Col>
-                </Row>
+            <Container className='footer' fluid={true}>
+                    <Row className="justify-content-between p-3">
+                        {/* <Col className="p-0" md={3} sm={12}>
+                            Ashvinder Suri
+                        </Col> */}
+                        <Col className="p-0 d-flex justify-content-between" md={3}>
+                            This site was made by Ashvinder Suri.
+                        </Col>
+                    </Row>
             </Container>
         </footer>
     );
